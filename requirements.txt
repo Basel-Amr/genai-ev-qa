@@ -7,6 +7,7 @@ tqdm
 requests
 beautifulsoup4
 pdfplumber
+fpdf
 
 # LLM & Fine-tuning
 transformers
@@ -14,6 +15,7 @@ peft
 datasets
 torch
 sentencepiece
+accelerate
 
 # Deployment
 fastapi
@@ -31,6 +33,3 @@ python-dotenv
 black
 flake8
 pytest
-
-transformers
-accelerate
