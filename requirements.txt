@@ -31,3 +31,5 @@ python-dotenv
 black
 flake8
 pytest
+
+fpdf
