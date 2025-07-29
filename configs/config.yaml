@@ -1,0 +1,7 @@
+domain_topic: "Electric Vehicle Charging Stations"
+use_case: "Question Answering"
+data_sources:
+  - "https://en.wikipedia.org/wiki/Charging_station"
+  - "https://www.flo.com/wp-content/uploads/2022/12/Executive-Guide-to-EV-Charging-Infrastructure-US-compressed.pdf"
+base_model: "meta-llama/Meta-Llama-3-7B"
+output_dir: "./outputs"

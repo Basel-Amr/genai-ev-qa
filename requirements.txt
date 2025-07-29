@@ -1,0 +1,33 @@
+# Core
+numpy
+pandas
+tqdm
+
+# Data collection
+requests
+beautifulsoup4
+pdfplumber
+
+# LLM & Fine-tuning
+transformers
+peft
+datasets
+torch
+sentencepiece
+
+# Deployment
+fastapi
+uvicorn[standard]
+
+# Orchestration
+prefect
+
+# Evaluation
+rouge-score
+sacrebleu
+
+# Dev tools
+python-dotenv
+black
+flake8
+pytest
