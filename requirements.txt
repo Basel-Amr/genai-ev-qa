@@ -31,3 +31,6 @@ python-dotenv
 black
 flake8
 pytest
+
+transformers
+accelerate
