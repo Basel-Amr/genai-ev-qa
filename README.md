@@ -193,6 +193,40 @@ Open [http://localhost:8501](http://localhost:8501)
   - Logs & metrics panel in the Streamlit UI.
 
 ---
+## **Approach to Prompting Code Generation Tools**
+For this project, I strategically leveraged AI-powered code generation tools (e.g., ChatGPT, GitHub Copilot) to accelerate development without compromising quality or maintainability.
+
+1. Structured Prompt Design
+Context-Driven Prompts: Each prompt explicitly defined the goal, available inputs, expected outputs, and constraints.
+Example:
+
+"Generate a Python function to split long text into 512-token chunks for TinyLlama fine-tuning. Include clear docstrings and inline comments."
+
+Explicit Output Requirements: Prompts required complete, runnable code with clear docstrings, comments, and modular structure.
+
+Iterative Refinement: Initial drafts were progressively refined through multiple prompt adjustments until they fully met project quality standards.
+
+2. Long Context Handling
+Challenge: Complex tasks such as dataset generation and training pipelines often exceeded token limits.
+
+Solution:
+
+Broke down tasks into smaller, focused prompts.
+
+Generated utility functions (e.g., chunk_text() for splitting long input).
+
+Integrated these utilities into complete pipelines with logging, testing, and exception handling.
+
+Result: Prompt instructions were specifically designed to address large input handling and modular coding best practices.
+
+3. Human-in-the-Loop Verification
+Manual Code Review: All AI-generated code was thoroughly reviewed and tested locally.
+
+Enhancements: Added features such as robust logging, token authentication, and error handling to ensure production readiness.
+
+Outcome: A hybrid workflow combining AI-assisted code generation with human expertise, resulting in faster development and highly reliable, maintainable solutions.
+
+---
 
 ## **👨‍💻 Author**
 **Basel Amr Barakat**  
