@@ -1,34 +1,49 @@
-# Core
+# ===============================
+# Core Dependencies
+# ===============================
 numpy
 pandas
 tqdm
 
-# Data collection
+# ===============================
+# Data Collection & Parsing
+# ===============================
 requests
 beautifulsoup4
 pdfplumber
-fpdf
 
-# LLM & Fine-tuning
-transformers
+# ===============================
+# Machine Learning & LLM Fine-tuning
+# ===============================
+transformers==4.40.0
+torch>=2.0.0
 peft
-datasets
-torch
 sentencepiece
+datasets
 accelerate
+huggingface_hub==0.25.2
 
-# Deployment
+# ===============================
+# Model Deployment & API
+# ===============================
 fastapi
 uvicorn[standard]
+gradio
 
-# Orchestration
+# ===============================
+# Workflow Orchestration
+# ===============================
 prefect
 
-# Evaluation
+# ===============================
+# Evaluation Metrics
+# ===============================
 rouge-score
 sacrebleu
 
-# Dev tools
+# ===============================
+# Development & Environment
+# ===============================
 python-dotenv
 black
 flake8
